@@ -29,7 +29,7 @@ var overDec2 = bigliettoOver.toFixed(2);
 console.log(bigliettoOver);
 console.log(overDec2);
 
-if (eta <= 18) {
+if (eta < 18) {
     console.log(minDec2);
     document.getElementById("costo").innerHTML = (minDec2 + " €");
 } else if (eta >= 65) {
